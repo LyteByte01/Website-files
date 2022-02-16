@@ -14,7 +14,7 @@
 	padding-top:50px;
 }
 
-.side .listy li {
+.side li {
 	padding-left: 60px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -23,8 +23,12 @@
   background: rgb(0, 0, 0)
 }
 
-.side .listy li:hover {
+.side li:hover {
   background: rgb(156, 155, 155);
+}
+
+.active2 {
+	background-color: #08b1ff;
 }
 
 .rest2 {
