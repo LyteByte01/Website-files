@@ -827,3 +827,7 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   margin-top:10px;
   width: 60%;
 }
+
+a {
+  color: lightblue;
+}

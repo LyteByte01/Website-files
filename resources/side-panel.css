@@ -11,7 +11,7 @@
 	background: black;
 	position: fixed;
 	float: left;
-	padding-top:125px;
+	padding-top:75px;
   overflow-y: scroll;
 }
 
@@ -27,6 +27,9 @@
   background: rgb(156, 155, 155);
 }
 
+.side li:active {
+  transform: translateY(3px);
+}
 .act2 {
 	background-color: #08b1ff;
 }
@@ -34,14 +37,25 @@
 .rest2 {
 	margin-left: 20%;
 	padding-left: 50px;
+  padding-right: 50px;
 	width: 80%;
 	padding-top: 125px;
-	background-color: linear-gradient(180deg, rgb(74, 194, 250), #3d3d3d);
+	background: linear-gradient(180deg, rgb(74, 194, 250), #3d3d3d);
 }
 
 .sHead {
   text-align: center;
   margin-bottom: 30px;
   margin-left:-1%;
-  
+  margin-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.mainH {
+  font-size: 40px
+}
+
+.parag {
+  font-size: 20px;
 }
