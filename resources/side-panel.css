@@ -20,14 +20,13 @@
 	padding-bottom: 5px;
 	list-style-type: none;
   transition: 0.3s;
-  background: rgb(0, 0, 0)
 }
 
 .side li:hover {
   background: rgb(156, 155, 155);
 }
 
-.active2 {
+.act2 {
 	background-color: #08b1ff;
 }
 
