@@ -845,6 +845,12 @@ a {
   height: 200px;
   width: 200px;
   border-radius: 50px;
+  float: left
+}
+
+.words {
+  float: left;
+  height: 200px;
 }
 
 .titlee {
@@ -852,10 +858,12 @@ a {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-font-weight: 700;
   font-weight: 700;
+  margin-left: 50px;
 }
 
 .desc {
-  font-size: 20px
+  font-size: 20px;
+  margin-left: 50px;
 }
 
 .FullSt {
