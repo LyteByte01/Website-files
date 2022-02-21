@@ -858,7 +858,8 @@ a {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-font-weight: 700;
   font-weight: 700;
-  margin-left: 50px;
+  margin-left: 30px;
+  margin-top: 20px
 }
 
 .desc {
