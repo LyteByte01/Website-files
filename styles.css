@@ -463,10 +463,6 @@ body {
 	margin-top:-30px;
 }
 
-.embed {
-	width: 70%;
-	margin-top:75px;
-}
 
 .topnav2 {
 	width: 100%;
@@ -653,7 +649,7 @@ body {
   overflow: hidden;
   gap: 2rem;
 	color: #FFFFFF;
-	margin-top: -20px
+	margin-top: -20px;
 }
 
 img2 {
@@ -754,9 +750,11 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   font-family: "Raleway";
   color: black;
   border-radius: 10px;
-	transition:0.3s;
-	margin-bottom: -5px;
-	background: white;
+  transition:0.3s;
+  margin-bottom: -5px;
+  background: white;
+  bottom: 0;
+  position: relative;	
 }
 
 
@@ -792,7 +790,8 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 	border-radius: 12px;
 	border: black;
 	transition: 0.3s;
-	text-align: center
+	text-align: center;
+  cursor: pointer;
 }
 
 .ButDiv {
@@ -823,10 +822,7 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   font-weight: 300;
 }
 
-.embed{
-  margin-top:10px;
-  width: 60%;
-}
+
 
 a {
   color: lightblue;
@@ -844,7 +840,7 @@ a {
   margin-left: -90px;
   height: 200px;
   width: 200px;
-  border-radius: 50px;
+  border-radius: 50px 0 0 50px;
   float: left
 }
 
@@ -877,3 +873,26 @@ a {
 	color: #FFFFFF;
 	margin-top: 20px;
 }
+
+.thingss {
+	height: 700px;
+	width: 100%;
+	background: url("aiden/Max-WHEATLEY-240x300.jpg");
+	padding-top: 280px;
+}
+
+.thingss p {
+	font-size:100px;
+	text-align:center;
+}
+
+.thingss .div2 {
+	width: 300px;
+	background: grey;
+	margin-left: 42.5%;
+}
+
+.thingss .div2 p {
+	font-size: 25px;
+}
+
