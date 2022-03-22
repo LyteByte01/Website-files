@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
 
+
+
+.aboutU {
+	height:750px;
+	background: linear-gradient(rgb(0, 117, 146),#3d3d3d);
+	width:100%;
+	overflow: hidden;
+	margin-top: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -420,15 +430,6 @@ body {
 .socials:hover {
 	background-color: rgb(87, 87, 87);
 }
-
-.aboutU {
-	height:750px;
-	background: linear-gradient(rgb(0, 117, 146),#3d3d3d);
-	width:100%;
-	overflow: hidden;
-	margin-top: 0;
-}
-
 .actAb {
 	width: 50%;
 	padding-top: 60px;
@@ -896,3 +897,71 @@ a {
 	font-size: 25px;
 }
 
+
+.drop {
+	width: 250px;
+	max-height: 400px;
+
+
+	transition: 0.3s;
+}
+
+.tops {
+	background: rgb(111 ,111 ,111);
+	border-radius: 8px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	transition: 0.3s;
+	height: 50px;
+}
+
+.ascii {
+  background:white;
+  border-radius: 20px;
+}
+
+.content {
+	transition: 0.6s;
+	display: none;
+	background: grey;
+	border-radius: 0 0 8px 8px;
+	padding: 7px;
+}
+
+.content p {
+	color: white;
+	font-size: 15px;
+}
+
+.tops button {
+	padding: 8px;
+	background: #08b1ff;
+	border: 0;
+	transition: 0.1s;
+	color: white;
+	float: right;
+	margin-right: 10px;
+	border-radius: 4px;
+}
+
+.tops button:hover {
+	background: #0378ad;
+}
+
+.tops button:active {
+	transform: translateY(3px);
+}
+
+.tops h1 {
+	float: left;
+	font-size: 25px
+}
+
+.longer {
+  width: 455px
+}
+
+.up {
+  margin-top: -25px;
+}

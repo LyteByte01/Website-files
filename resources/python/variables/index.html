@@ -4,14 +4,10 @@
 <title>Python Variables</title>
 <link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="/resources/side-panel.css">
-<link rel="stylesheet"href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<link rel="stylesheet" href="/path/to/styles/default.min.css">
-<script src="/path/to/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
+<script src="/index.js"></script>
 </head>
   
-<body>
+<body onload="dropPre()">
   
 	<div class="topnav4" id="topnav">
     <nav class="navMenu4">
@@ -44,17 +40,42 @@
         <li onclick="location.href = '/resources/python/challenges/'" style="margin-bottom:50px">Python Challenges</li>
 		</div>
 		
-		<div class="rest2" style="height: 1000px;">
+		<div class="rest2" style="height: 1100px;">
       <h2 class="mainH">What are Variables?</h2>
       <div class="ablin2">
 		    <hr style="margin-right:50px">
 	    </div>
-      <p><b style="font-size: 24px">Variables</b> they are quite interesting to say the least, they can   store any character, number, float (decimal number) or user inputs. An example of this is shown     below. Feel free to copy this into replit or python and try yourself!
+      <p><b style="font-size: 24px">Variables</b> they can store any character, number, float (decimal number) or user inputs. An example of this is shown below. Feel free to copy this into replit or python and try yourself!
+      <br>
       </p>
-      <img src=""
-	
+      <img class="img2" src="https://cdn.jsdelivr.net/gh/LyteByte01/LyteByteCDN/pythonvars.png" width="170">
+      <br>
+      <br>
+      <p>The first variable you see "x" is storing an integer or a number. You know when there is a variable when you have the character or characters then an equals sign and whatever you want to store so in this case "1". This is called declaring a variable.</p>
+     
+      <br>
+      <p>The second variable you see "y" is storing a string meaning the variable is storing words and characters. Thi can be used for storing users inputs.</p>
+  
+      <br>
+      <p>The third variable is storing a float number this means the number has a decimal place like "1.1111". This can be used when doing maths in your program and getting storing precise results. </p>
+      
+      <br>
+      <p>The fourth and final variable is storing a boolean variable this means it can either be "True" or "False". This can be used in checking loops but you'll learn that later on!</p>
+      <br>
+      <p>This is quite a small topic and doesn't need anymore explaining so if you feel like you understand everything so far move on to the next catergory!</p>
+      
+  <div class="bigboi">
+    <div class="drop" id="drop">
+		  <div class="tops" id="tops">
+			  <h1>Strings</h1>
+			  <button id="show" onclick="drop()">show</button>
+		  </div>
+		<div class="content" id="contt">
+		<p>Strings are any variable that contaims any characters (ascii)</p>
+		</div>
+	  </div>
 	</div>
-	
+  </div>
 	<div class="footer2">
 	<div class="foot1">
 		<p>honestly this is the best company on the planet and you can't say otherwise.</p>

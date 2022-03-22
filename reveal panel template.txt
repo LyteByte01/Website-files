@@ -1,0 +1,11 @@
+<body onrun="dropPre()">
+
+<div class="drop" id="drop">
+		<div class="tops" id="tops">
+			<h1>Title</h1>
+			<button id="show" onclick="drop()">show</button>
+		</div>
+		<div class="content" id="contt">
+		<p>Lorem ipsum</p>
+		</div>
+	</div>

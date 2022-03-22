@@ -1,5 +1,5 @@
 
 function aidenn() {
-	window.alert("Aiden likes men")
+	window.alert("Injecting RAM.exe and Injecting CPU_CORES.exe ...")
 }
-	
+  
