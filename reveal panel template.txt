@@ -9,3 +9,5 @@
 		<p>Lorem ipsum</p>
 		</div>
 	</div>
+
+if you put multiple on a page you will need to just add a number too all the ids in the js file and the html

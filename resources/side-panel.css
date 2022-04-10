@@ -205,6 +205,8 @@ pre code {
 }
 
 .bigboi {
-  height: 250px;
-  
+  padding-top: 30px;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
